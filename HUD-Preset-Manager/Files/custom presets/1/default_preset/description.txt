@@ -1,0 +1,1 @@
+removes all visual elements, but keeps health and ammunition indicators in a very small size

@@ -1,0 +1,36 @@
+OK, this code is a heck, so you need to use the
+same stupid names I put in while testing, since 
+my first preset system didn't work
+
+go to “custom presets”, find the next empty number,
+put the default_preset folder
+
+put your hudanimations in 
+default_preset\aninmIN\scripts\ammo.txt
+
+put your hudlayout in
+default_preset\hudlayout_ad_in\scripts\hudlayout.res
+
+put the resource ui in
+default_preset\cinema_hud\resource\ui
+
+now list the ui elements you are going to change in
+default_preset\ui_substituir.txt
+
+check how this works in any other preset such as
+backup cinhud\default_preset
+
+to add custom materials, just place them in the folder
+file\materials
+all materials are together, there is no need for them to be separated
+
+title.txt
+description.txt
+img.png
+is what is shown in the visual part of the code
+img.png needs to be 500x300
+
+if you are really going to make a preset here, send it to my email 
+teupai022@gmail.com 
+so i can add it, don't forget to add your nickname or any digital signature 
+in the img or in the description

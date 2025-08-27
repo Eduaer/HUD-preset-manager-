@@ -1,0 +1,61 @@
+"Resource/UI/HudPlayerHealth.res"
+{	
+	// player health data
+	"HudPlayerHealth"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudPlayerHealth"
+		"xpos"			"C-340"		
+		"ypos"			"c-240"	
+		"zpos"			"60"
+		"wide"			"280"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"	
+		"HealthBonusPosAdj"	"35"
+		"HealthDeathWarning"	"0.49"
+		"HealthDeathWarningColor"	"HUDDeathWarning"
+	}	
+	"PlayerStatusHealthImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImage"
+		"xpos"			"-999"
+		"ypos"			"35"
+		"zpos"			"4"
+		"wide"			"48"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+	}		
+	"PlayerStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos"			"-99"
+		"xpos_minmode"	"-999"
+		"ypos"			"33"
+		"zpos"			"3"
+		"wide"			"55"
+		"tall"			"55"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/health_bg"
+		"scaleImage"	"1"	
+	}	
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"136"	
+		"ypos"			"38"	
+		"zpos"			"1"
+		"wide"			"30"	
+		"tall"			"30"	
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"1"	
+	}
+]

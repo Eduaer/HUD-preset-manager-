@@ -1,0 +1,40 @@
+Type this command into your tf2 console or autoexec.cfg file
+
+bind F11 "hud_reloadscheme"
+
+If you want the viewmodel to disappear along with the HUD, then write that instead.
+
+bind "f11" "toggle r_drawviewmodel 1 0;hud_reloadscheme"
+
+Click the install button and select your HUD folder
+
+It's ready, just press shift + g and your HUD will change in-game.
+
+
+
+
+Q&A:
+
+Q: Do I need to interact with this software to get it working again after I close the program or restart the PC?
+A: No.
+
+Q: Can I change the keys used?
+A: No, I have no idea how to make a modular system. If you really want to, you can edit and recompile the ahk source (cinhud_toggle.ahk)
+
+Q: My ammunition texture is a missing texture. What should I do?
+A: Just restart TF2 and it should work forever. Textures do not reload with hud_reloadscheme.
+
+Q: I don't have a custom HUD. Will it still work?
+A: No, just download a HUD. If you don't want to change anything in your game, download a HUD that preserves the originality of the game, such as AMPHUD, but there are several like this, and also several tutorials on how to install a custom HUD.
+
+Q: can i get vac banned? Is that against the rules?
+A:No, no
+
+Q: Will this unbind my shift and g keys?
+A: no 
+
+info: 
+if you want the entire HUD to disappear, including the crosshair, health bar, and ammo indicator, you can use the game command 
+cl_drawhud 0
+If you want to implement a toggle system, just use it like this:
+bind t “toggle cl_drawhud 1 0”

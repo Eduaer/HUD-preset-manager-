@@ -1,0 +1,1 @@
+removes all visual elements and only alerts you if your health or ammunition is low
